@@ -1,8 +1,6 @@
 package navdurgaaarti.app.hmp.aarti.com.navratriaarti;
 
-/**
- * Created by harsh.arora on 8/29/2017.
- */
+
 
 import android.content.Context;
 import android.content.Intent;
@@ -73,14 +71,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 if (position == 0) {
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
                     int address = R.raw.a_shailputri;
-                    int img_address = R.drawable.a_shelputri;
+                    int img_address = R.drawable.a_shailputri;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", address);
                     view.getContext().startActivity(intent);
                 } else if (position == 1) {
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
                     int address = R.raw.b_bramcharini;
-                    int img_address = R.drawable.b_varahamcharni;
+                    int img_address = R.drawable.b_brahmcharini;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", address);
                     view.getContext().startActivity(intent);
@@ -88,7 +86,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 else if(position==2){
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
                     int address = R.raw.c_chandraghanta;
-                    int img_address = R.drawable.c_chanderghanta;
+                    int img_address = R.drawable.c_chandraghanta;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", address);
                     view.getContext().startActivity(intent);
@@ -96,15 +94,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 else if(position==3){
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
                     int address = R.raw.d_kushmanda;
-                    int img_address = R.drawable.d_khusmanda;
+                    int img_address = R.drawable.d_kushmanda;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", address);
                     view.getContext().startActivity(intent);
                 }
                 else if(position==4){
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
-                    int address = R.raw.a_shailputri;
-                    int img_address = R.drawable.a_shelputri;
+                    int address = R.raw.e_skanda;
+                    int img_address = R.drawable.e_skanda;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", address);
                     view.getContext().startActivity(intent);
@@ -112,15 +110,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 else if (position==5){
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
                     int addres = R.raw.f_katyani;
-                    int img_address = R.drawable.f_katiyani;
+                    int img_address = R.drawable.f_katyani;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", addres);
                     view.getContext().startActivity(intent);
                 }
                 else if (position==6) {
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
-                    int addres = R.raw.g_siddhidatri;
-                    int img_address = R.drawable.g_kaalratri;
+                    int addres = R.raw.g_kalratri;
+                    int img_address = R.drawable.g_kalratri;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", addres);
                     view.getContext().startActivity(intent);
@@ -128,7 +126,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 else if (position==7) {
                     Intent intent = new Intent(view.getContext(), Second_Activity.class);
                     int addres = R.raw.h_gauri;
-                    int img_address = R.drawable.h_mahagori;
+                    int img_address = R.drawable.h_gauri;
+                    intent.putExtra("Image_Address", img_address);
+                    intent.putExtra("song_address", addres);
+                    view.getContext().startActivity(intent);
+                }
+                else if(position==8) {
+                    Intent intent = new Intent(view.getContext(), Second_Activity.class);
+                    int addres = R.raw.i_siddhidatri;
+                    int img_address = R.drawable.i_siddhidatri;
                     intent.putExtra("Image_Address", img_address);
                     intent.putExtra("song_address", addres);
                     view.getContext().startActivity(intent);
